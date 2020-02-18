@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LamanPerkalian"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAngka"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan angka!" />
+
+    <EditText
+        android:id="@+id/etAngkaPertama"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0" />
+    <EditText
+        android:id="@+id/etAngkakedua"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0" />
+    <Button
+        android:id="@+id/BKali"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X"/>
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/Hasil"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+</LinearLayout>
